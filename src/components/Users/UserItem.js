@@ -1,10 +1,11 @@
 import React from "react";
 
 const UserItem = (props) => {
+    const userString = props.name + " " + props.age + " years old";
     return (
-        <div>
-            
-        </div>
+        <li>
+            <div>{userString}</div>
+        </li>
     );
 };
 
